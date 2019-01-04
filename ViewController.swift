@@ -81,7 +81,7 @@ class ViewController: UIViewController , UITableViewDelegate, UITableViewDataSou
                     self.arrRes = resData as! [[String:AnyObject]]
                     //                    UserDefaults.standard.set(self.arrRes, forKey: "arr")
                     self.shareData.someString = self.arrRes
-                    print(self.arrRes)
+                   // print(self.arrRes)
                     //  print(self.arrRes[0]["phone"]!["home"] as? String)
                     //UserDefaults.standard.string(forKey: "arr")
                     print(UserDefaults.standard.string(forKey: "arr") as Any)
